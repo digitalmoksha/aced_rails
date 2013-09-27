@@ -19,7 +19,7 @@ $.fn.extend
       height  = ta.height()
       width   = ta.width()
 
-      div = $("<div style=\"height: #{height}px; width: #{width}px;\"></div>")
+      div = $("<div style=\"height: #{height}px;\"></div>")
       ta.hide()
       ta.before div
       ta.data 'ace-div', div
